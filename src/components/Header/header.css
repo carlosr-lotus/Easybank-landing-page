@@ -8,6 +8,7 @@ header {
     align-items: center;
 }
 
+/* Hamburguer Logo */
 header>svg:nth-child(2) {
     cursor: pointer;
 }
