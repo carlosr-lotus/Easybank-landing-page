@@ -1,0 +1,16 @@
+header {
+    padding: 2.5rem 2rem;
+
+    background-color: var(--White);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(min-width: 1440px) {
+    header {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
