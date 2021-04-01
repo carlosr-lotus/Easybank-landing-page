@@ -8,6 +8,10 @@ header {
     align-items: center;
 }
 
+header>svg:nth-child(2) {
+    cursor: pointer;
+}
+
 @media(min-width: 1440px) {
     header {
         width: 80%;
