@@ -1,21 +1,32 @@
 header {
-    padding: 2.5rem 2rem;
+    width: 85%;
+    margin: 0 auto;
+    padding: 2.5rem 0rem;
 
     background-color: var(--White);
 
+}
+
+.menu-header,
+.nav-mobile {
+    width: 100%;
+    border: 1px solid magenta;
+}
+
+.menu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* Hamburguer Logo */
-header>svg:nth-child(2) {
+.menu-nav>svg:nth-child(2) {
     cursor: pointer;
 }
 
 @media(min-width: 1440px) {
     header {
         width: 80%;
-        margin: 0 auto;
     }
+
 }
