@@ -1,5 +1,6 @@
 import Header from "./components/Header/index";
-import Container from "./components/Container"
+import Container from "./components/Container";
+import Presentation from "./components/presentation";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Container>
         <Header />
+        <Presentation />
       </Container>
     </div>
   );
