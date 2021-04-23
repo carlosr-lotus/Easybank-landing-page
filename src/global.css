@@ -23,3 +23,23 @@ body {
     font-family: 'Public Sans',
         sans-serif;
 }
+
+button {
+    padding: 1.2rem 3rem;
+
+    border-radius: 20px;
+    border: none;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    color: var(--White);
+
+    background: rgb(49, 211, 92);
+    background: -moz-linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+    background: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#31d35c", endColorstr="#2bb7da", GradientType=1);
+
+    cursor: pointer;
+}

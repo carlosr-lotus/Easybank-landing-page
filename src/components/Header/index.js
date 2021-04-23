@@ -1,8 +1,7 @@
-//import NavMobile from './Navigation'
+import { useState } from 'react'
 
 import './header.css'
 import './navigation.css'
-import { useState } from 'react'
 
 export default function Header() {
 
@@ -10,6 +9,7 @@ export default function Header() {
 
     let mobileNav
 
+    // If user clicks on hamburguer icon, display 'nav-mobile'
     if (displayMobileNav) {
         mobileNav = <div className="nav-mobile">
                 <nav>
@@ -37,9 +37,24 @@ export default function Header() {
                     
                 {/* Hamburger Icon */}
                 <svg onClick={() => setDisplayMobileNav(!displayMobileNav)} xmlns="http://www.w3.org/2000/svg" width="24" height="11">
+
                         <g fill="#2D314D" fillRule="evenodd">
                         <path d="M0 0h24v1H0zM0 5h24v1H0zM0 10h24v1H0z"/></g>
                 </svg>
+
+                <div className="nav-desktop">
+                    <nav>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <button className="request-invite-btn">Request Invite</button>
             </div>
 
             {/* Display Menu for Mobile version */}

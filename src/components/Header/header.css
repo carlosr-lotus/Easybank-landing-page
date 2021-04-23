@@ -4,13 +4,11 @@ header {
     padding: 2.5rem 0rem;
 
     background-color: var(--White);
-
 }
 
 .menu-header,
 .nav-mobile {
     width: 100%;
-    border: 1px solid magenta;
 }
 
 .menu-header {
@@ -20,7 +18,7 @@ header {
 }
 
 /* Hamburguer Logo */
-.menu-nav>svg:nth-child(2) {
+.menu-header>svg:nth-child(2) {
     cursor: pointer;
 }
 
@@ -28,5 +26,4 @@ header {
     header {
         width: 80%;
     }
-
 }

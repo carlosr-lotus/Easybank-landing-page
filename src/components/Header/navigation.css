@@ -12,7 +12,11 @@
 }
 
 .nav-mobile nav ul {
+    margin: 0;
+    padding: 0;
     height: 100%;
+
+    list-style: none;
 
     display: flex;
     flex-direction: column;
@@ -20,13 +24,44 @@
     align-items: center;
 }
 
-.nav-mobile nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .nav-mobile nav ul li {
     font-size: 1.8rem;
     color: var(--Dark-Blue);
+}
+
+.menu-header .request-invite-btn,
+.nav-desktop {
+    display: none;
+}
+
+/* DESKTOP MENU CSS */
+@media(min-width: 1440px) {
+
+    .nav-desktop,
+    .menu-header .request-invite-btn {
+        display: block;
+    }
+
+    .menu-header>svg:nth-child(2) {
+        display: none;
+    }
+
+    .nav-desktop ul {
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav-desktop ul li {
+        font-size: 1.6rem;
+        color: var(--Grayish-Blue);
+
+        margin: 0 1.2rem;
+        cursor: pointer;
+    }
 }
