@@ -2,10 +2,87 @@ h2 {
     color: magenta;
 }
 
+.img-container {
+    position: relative;
+    z-index: 1;
+}
+
 .bg-mobile {
     width: 100%;
 }
 
 .phones-img {
-    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -20px;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.presentation-text {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.presentation-text h1 {
+    font-weight: 100;
+    color: var(--Dark-Blue);
+    font-size: 3.7rem;
+}
+
+.presentation-text p {
+    margin: 1.8rem 0;
+
+    color: var(--Grayish-Blue);
+
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+@media(min-width: 1440px) {
+    .bg-mobile {
+        display: none;
+    }
+
+    .phones-img {
+        top: -275px;
+
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .presentation-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+
+        width: 75%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .img-container,
+    .presentation-text {
+        width: 50%;
+
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .presentation-text h1 {
+        width: 65%;
+        font-size: 4.5rem;
+    }
+
+    .presentation-text p {
+        width: 61%;
+        font-size: 1.7rem;
+    }
+
 }
