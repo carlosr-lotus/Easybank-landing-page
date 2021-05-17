@@ -1,5 +1,5 @@
 header {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
     padding: 2.5rem 0rem;
 
@@ -11,7 +11,8 @@ header {
 
 .menu-header,
 .nav-mobile {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .menu-header {
@@ -27,6 +28,12 @@ header {
 
 @media(min-width: 1440px) {
     header {
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .menu-header,
+    .nav-mobile {
         width: 75%;
     }
 }
