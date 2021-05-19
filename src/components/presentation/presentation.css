@@ -1,3 +1,7 @@
+.presentation-container {
+    margin-bottom: 10rem;
+}
+
 /* Place image underneath header */
 .img-container {
     position: relative;
@@ -47,7 +51,22 @@
     font-size: 1.5rem;
 }
 
-/* CSS Responsive DESKTOP */
+/* Mobile Landscape - CSS Responsive */
+@media screen and (orientation:landscape) {
+    .phones-img {
+        top: -280px;
+    }
+
+    .presentation-text {
+        width: 90%;
+        height: 200px;
+        margin: 8.5rem auto auto;
+
+        text-align: center;
+    }
+}
+
+/* DESKTOP Computer - CSS Responsive */
 @media(min-width: 1440px) {
     .bg-mobile {
         display: none;
@@ -60,9 +79,10 @@
     }
 
     .phones-img {
-        top: 350px;
+        top: 260px;
 
         width: 570px;
+        max-height: none;
         margin: 0 auto;
     }
 
@@ -86,6 +106,8 @@
     }
 
     .presentation-text h1 {
+        color: var(--Dark-Blue);
+
         width: 65%;
         font-size: 4.5rem;
     }
