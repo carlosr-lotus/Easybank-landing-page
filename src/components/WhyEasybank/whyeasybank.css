@@ -1,0 +1,72 @@
+/* Global Component Container */
+.why-easybank-container {
+    width: 100%;
+    background-color: var(--Very-Light-Gray);
+}
+
+.why-easybank-content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+}
+
+/* Why Easybank Text + Features Container*/
+.why-easybank-text,
+.features-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    text-align: center;
+    font-weight: 300;
+}
+
+.why-easybank-text h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: var(--Dark-Blue);
+}
+
+.why-easybank-text p,
+.features-content p {
+    margin: 1.4rem 0 2.4rem;
+
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+
+    color: var(--Grayish-Blue);
+}
+
+.features-content h3 {
+    margin: 1.8rem 0 0;
+
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--Dark-Blue);
+}
+
+/* DESKTOP - CSS Responsive */
+@media(min-width: 1440px) {
+
+    .why-easybank-text {
+        width: 100%;
+        text-align: left;
+    }
+
+    .why-easybank-text p {
+        width: 35%;
+    }
+
+    .features-container {
+        display: flex;
+    }
+
+    .features-content {
+        width: 25%;
+        text-align: left;
+    }
+
+    .features-content p {
+        width: 65%;
+    }
+}

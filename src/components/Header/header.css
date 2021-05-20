@@ -26,6 +26,7 @@ header {
     cursor: pointer;
 }
 
+/* DESKTOP - CSS Responsive */
 @media(min-width: 1440px) {
     header {
         background-color: #fff;
