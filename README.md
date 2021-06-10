@@ -1,3 +1,13 @@
+# Easybank | Front End Mentor project :blush:
+
+- This project was created to develop and enhance my front end skills. It was taken from the following website: https://www.frontendmentor.io/
+
+## Tools used in this project:
+
+- Browser: Mozilla Firefox
+- Coding Tools: ReactJS
+- Text Editor/IDE: Visual Studio Code
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
