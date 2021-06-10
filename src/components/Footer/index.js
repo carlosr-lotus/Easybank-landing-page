@@ -52,10 +52,23 @@ export default function Footer() {
                     <p>About Us</p>
                     <p>Contact</p>
                     <p>Blog</p>
-                    <p>Careers</p>
-                    <p>Support</p>
-                    <p>Privacy Policy</p>
+
+                    {/* Separation for mobile only */}
+                    {/* The reason is to display aligned LINKS in mobile version. */}
+                    <div className="mobile-nav">
+                        <p>Careers</p>
+                        <p>Support</p>
+                        <p>Privacy Policy</p>
+                    </div>
                 </div>
+
+                {/* Separation for desktop only */}
+                {/* The reason is to display divided LINKS in desktop version. */}
+                <div className="desktop-nav">
+                        <p>Careers</p>
+                        <p>Support</p>
+                        <p>Privacy Policy</p>
+                    </div>
 
                 
 

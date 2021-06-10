@@ -24,19 +24,31 @@ footer {
 }
 
 .social-media-container a {
-    margin: 0 1rem;
+    margin: 0 1.4rem 0 0;
 }
 
 /* ***** SECTION TWO ***** */
+/* Part of CSS code below is used for DESKTOP-NAV class */
 .section-two p,
-.section-three p {
-    font-size: 1.6rem;
-    font-weight: 100;
-    color: var(--Very-Light-Gray);
-
+.section-three p,
+/* DESKTOP-NAV class */
+.desktop-nav p {
     margin: 1.6rem 0;
 
+    font-size: 1.6rem;
+    font-weight: 100;
+
+    color: var(--Very-Light-Gray);
+
     cursor: pointer;
+}
+
+.section-three p {
+    cursor: unset;
+}
+
+.desktop-nav {
+    display: none;
 }
 
 .section-three p {
@@ -44,4 +56,53 @@ footer {
     font-size: 1rem;
 
     color: var(--Grayish-Blue);
+}
+
+/* DESKTOP - CSS Responsive */
+@media (min-width: 1440px) {
+    .footer-content-container {
+        height: 300px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+        align-items: center;
+    }
+
+    /* Remove part of LINKS dedicated to mobile. */
+    .mobile-nav {
+        display: none;
+    }
+
+    /* Add part of LINKS dedicated to mobile. */
+    .desktop-nav {
+        display: block;
+    }
+
+    .section-one {
+        text-align: left;
+    }
+
+    .social-media-container {
+        margin: 5rem 0 0 0;
+    }
+
+    .section-two,
+    .desktop-nav {
+        width: 120px;
+        margin: 0 auto;
+
+        text-align: left;
+    }
+
+    .section-three {
+        text-align: right;
+    }
+
+    .section-three button {
+        margin: 0 0 4rem 0;
+    }
+
+    .section-three p {
+        font-size: 1.4rem;
+    }
 }
