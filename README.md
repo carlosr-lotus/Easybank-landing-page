@@ -8,6 +8,8 @@
 - Coding Tools: ReactJS
 - Text Editor/IDE: Visual Studio Code
 
+!! This website/project is only properly developed for mobile and desktop resolutions just as the exercise demanded.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
