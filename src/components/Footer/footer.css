@@ -7,7 +7,7 @@ footer {
 .footer-content-container {
     padding: 2rem 0;
     width: 75%;
-    height: 425px;
+    height: 500px;
     margin: 0 auto;
 
     text-align: center;
@@ -24,7 +24,7 @@ footer {
 }
 
 .social-media-container a {
-    margin: 0 .8rem;
+    margin: 0 1rem;
 }
 
 /* ***** SECTION TWO ***** */
@@ -34,12 +34,14 @@ footer {
     font-weight: 100;
     color: var(--Very-Light-Gray);
 
-    margin: 1rem 0;
+    margin: 1.6rem 0;
 
     cursor: pointer;
 }
 
 .section-three p {
-    font-size: 1rem;
     margin: 1.5rem 0 0 0;
+    font-size: 1rem;
+
+    color: var(--Grayish-Blue);
 }
