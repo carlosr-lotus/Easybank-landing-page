@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    background-color: var(--Dark-Blue);
+}
+
+/* *** Footer Container to center content *** */
+.footer-content-container {
+    padding: 2rem 0;
+    width: 75%;
+    height: 425px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* ***** SECTION ONE ***** */
+/* *** Social Media Icons *** */
+.social-media-container {
+    margin: 3rem 0 0 0;
+}
+
+.social-media-container a {
+    margin: 0 .8rem;
+}
+
+/* ***** SECTION TWO ***** */
+.section-two p,
+.section-three p {
+    font-size: 1.6rem;
+    font-weight: 100;
+    color: var(--Very-Light-Gray);
+
+    margin: 1rem 0;
+
+    cursor: pointer;
+}
+
+.section-three p {
+    font-size: 1rem;
+    margin: 1.5rem 0 0 0;
+}

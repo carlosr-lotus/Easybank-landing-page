@@ -3,6 +3,7 @@ import Container from "./components/Container";
 import Presentation from "./components/presentation";
 import WhyEasybank from "./components/WhyEasybank";
 import Articles from "./components/Articles";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Presentation />
         <WhyEasybank />
         <Articles />
+        <Footer />
       </Container>
     </div>
   );
